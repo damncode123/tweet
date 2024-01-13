@@ -20,3 +20,21 @@ const addTweet= (username, tweet)=>
     newtweet.append(`- ${tweet}`);
     tweetconatiner.append(newtweet);
 }
+// const addTweet= (username, tweet)=>
+// {
+//     const newtweet=document.createElement('li');
+//     const bTag=document.createElement('b');//creating bold tag itself
+//     bTag.append(username);//making user blod here
+//     newtweet.append(bTag);
+//     newtweet.append(`- ${tweet}`);
+//     tweetconatiner.append(newtweet);
+// }
+// const addTweet= (username, tweet)=>
+// {
+//     const newtweet=document.createElement('li');
+//     const bTag=document.createElement('b');//creating bold tag itself
+//     bTag.append(username);//making user blod here
+//     newtweet.append(bTag);
+//     newtweet.append(`- ${tweet}`);
+//     tweetconatiner.append(newtweet);
+// }
